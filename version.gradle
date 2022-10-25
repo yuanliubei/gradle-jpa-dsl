@@ -1,0 +1,11 @@
+ext {
+    version = [
+            "lombok"         : "1.18.22",
+            "querydsl"         : "4.4.0"
+    ]
+
+    dependencies = [
+            "lombok"  : "org.projectlombok:lombok:${version.lombok}",
+            "querydsl-jpa": "com.querydsl:querydsl-jpa:${version.querydsl}",
+    ]
+}
